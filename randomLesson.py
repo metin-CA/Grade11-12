@@ -16,8 +16,17 @@ import random
 # Rock paper scissor
 
 names = ["angad", "jugaad", "eiknoor", "cj", "charanpreet"]
+print(names)
+names.append("metin")
+print(names)
+print(names.count("metin"))
+print(names.pop(2))
+print(names)
+print(names[::-1])
 
-randomNumber = random.randint(0, len(names) - 1)
 
-print(names[randomNumber])
-print(randomNumber)
+#
+# randomNumber = random.randint(0, len(names) - 1)
+#
+# print(names[randomNumber])
+# print(randomNumber)
