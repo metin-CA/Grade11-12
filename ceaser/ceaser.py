@@ -20,5 +20,3 @@ def ceaser(original_text, shift_amount, encode_decode):
     print(encrypted_text)
 
 ceaser(original_text=text, shift_amount=shift, encode_decode=direction)
-# TODO-3: Combine the 'encrypt()' and 'decrypt()' functions into one function called 'caesar()'.
-#  Use the value of the user chosen 'direction' variable to determine which functionality to use.
